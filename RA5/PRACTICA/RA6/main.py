@@ -16,7 +16,7 @@ def main(page: ft.Page):
     def mostrar_mensaje(e):
         dialogo = ft.AlertDialog(
             title=ft.Text("Hola!"),
-            content=ft.Text(txt_mensaje)
+            content=ft.Text("gracias por escribir tu nombre!!")
         )
         page.show_dialog(dialogo)
 
